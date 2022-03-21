@@ -15,7 +15,7 @@ The three candidates of the election are Charles Casper Stockham, Diana Gette an
 
 The Election Committee will be to utilize this Python script to audit other future congressional districts, senatorial districts, and local elections. In its current form, the auditing team can use it to determine the number and percentage of votes by voting district and candidate and the winning result - the winner of the election.
 
-The code blocks can be easily and quickly adapted to audit election results by simply modifying the variables and loops with if statements run similar analyses for ** #/% of votes:**
+The code blocks can be easily and quickly adapted to audit election results by simply modifying the variables and loops with conditional statements run similar analyses for ** #/% of votes:**
   * by day (and most popular day to vote)
   * time of day (and most popular day to vote)
   * by voting methods: hand counted, machine counted, computer counted (and most popular voting method)
