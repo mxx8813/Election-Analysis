@@ -53,8 +53,8 @@ with open(file_to_load) as election_data:
             candidate_options.append(candidate_name)
             candidate_votes[candidate_name] = 0
         candidate_votes[candidate_name] += 1
-    with open(file_to_save, "w") as txt_file:
-        election_results = (
+with open(file_to_save, "w") as txt_file:
+    election_results = (
         f"\nElection Results\n"
         f"-------------------------\n"
         f"Total Votes: {total_votes:,}\n"
